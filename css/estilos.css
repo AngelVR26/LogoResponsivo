@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ 
+html{
+    font-size: 16px;
+    font-family: "Lucina Sans", sans-serif;
+}
+
+body{
+    font-size: 0;
+}
+
+header{
+    background-color: #9933cc;
+    color: #fff;
+    padding: 15px;
+    font-size: 1.3rem;
+}
+
+.row{
+    padding: 1%;
+}
+
+
+/* 1 */
+/* Menu */
+.menu ul{
+    list-style-type: none;
+}
+
+.menu li{
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #9933cc;
+    color: #c4431c;
+    box-shadow:#000 2px 5px;
+    font-size: 1.3rem;
+}
+.menu li:hover{
+    background-color: aquamarine;
+}
+#texto h1{
+    font-size: 2rem;
+}
+#texto p{
+    font-size: 1.3rem;
+    text-align: justify;
+}
+#lateral{
+    display: none;
+}
+.responsivo{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px;
+    width: 100%;
+    min-width: 320px;
+}
+img{
+    width: 75%;
+}
+    aside{
+        background-color: #c4431c;
+        padding: 15px;
+        color: #84c0c0;
+        font-size: 0.9rem;
+        text-align: center;
+        box-shadow: #5c3502 2px 5px;
+        margin: 5px 0;
+    }
+
+footer{
+    background-color: #0099cc;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+/*MOVILES*/
+
+
+/*TABLETAS*/
+
+/*COMPUTADORA*/
